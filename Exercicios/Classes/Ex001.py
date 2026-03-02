@@ -1,5 +1,8 @@
 #declaração de classe:
 class classe:
+    '''
+    Documentação da classe!
+    '''
     #declaração atributos
     def __init__(self, nome, idade): #método construtor
         self.nome = nome
@@ -14,3 +17,5 @@ class classe:
 obj = classe('jonatan', 23) #instanciação
 
 print(obj.mensagem())
+print(classe.__doc__)
+print(obj.__dict__)
